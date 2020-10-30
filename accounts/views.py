@@ -244,7 +244,7 @@ class SendNotifications(APIView):  # API FOR SENDING NOTIFICATION, NEEDS TO BE F
     def post(self, request, format=None):
         url = 'https://fcm.googleapis.com/fcm/send'
         headers = {
-            'Authorization': 'key=AIzaSyAK2b2a8KgzoTJ2kxz85qY1k2Z8qPy4y_4',
+            'Authorization': '#################################',
             'Content-Type': 'application/json',
         }
         data = {
